@@ -1,0 +1,20 @@
+import torch
+N_RESGROUPS = 10
+N_RESBLOCKS = 20
+N_FEATS = 64
+REDUCTION = 16
+SCALE = [8]
+RGB_RANGE = 255
+N_COLORS = 3
+RES_SCALE = 1
+BATCH_SIZE = 8
+HR_TRAIN = "/content/drive/MyDrive/project/Super_resolution/data/DIV2K_train_HR/DIV2K_train_HR"
+LR_TRAIN = "/content/drive/MyDrive/project/Super_resolution/data/x4/DIV2K_train_LR_mild"
+HR_VAL = "/content/drive/MyDrive/project/Super_resolution/data/DIV2K_valid_HR/DIV2K_valid_HR"
+LR_VAL = "/content/drive/MyDrive/project/Super_resolution/data/x4/DIV2K_valid_LR_mild"
+NUM_EPOCH = 40
+K_FOLD = 5
+DEVICE = torch.device("cuda:0")
+LEARNING_RATE = 0.0001
+WEIGHT_DECAY = 5e-3
+SIZE = 48
