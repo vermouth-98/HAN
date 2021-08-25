@@ -24,3 +24,11 @@ trong model hàm loss được sử dụng là MSEloss hoặc L1Loss
 ## load model
 download pretrain model in here:
 https://drive.google.com/drive/folders/17cLcPCDLuBV5_5-ngd0vXIDp6rebIMG1
+## vidu train
+ảnh gốc kích thước 48x48
+
+![Untitled](https://user-images.githubusercontent.com/76995105/130820888-f82ad4aa-9071-4441-85fd-19deb0a9b06d.png)
+
+ảnh sau khi qua model 384x384
+
+![img (1)](https://user-images.githubusercontent.com/76995105/130821018-af79c8d6-8cd1-4852-b99d-50d6ea1cb96c.png)
